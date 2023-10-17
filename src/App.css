@@ -1,0 +1,93 @@
+body {
+    max-width: 100%;
+  /* background: linear-gradient(to right, #091763 0%, #fffb00 150%); */
+
+}
+.About{
+    background-image: url(./images/carousel1.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 120vh;
+    padding-top: 80px;
+}
+.Home{
+     background-image: url(./images/carousel11.jpg) ;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 100vh;
+}
+.Projects{
+    background-image: url(./images/home_background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ContactUs{
+    background-image: url(./images/home_background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 120vh;
+    padding-top: 100px;
+}
+
+
+
+.line{
+    position: fixed;
+    bottom: 10px;
+    right: 22px;   
+    width: 2px;
+    height: 100px;
+    background-color: #c5a129;
+    
+}
+
+ .bi-linkedin{
+    position: fixed;
+    font-size: 30px;
+    padding-left: 10px;
+    bottom: 120px;
+    right: 10px;    
+    color: #c5a129;
+}
+ .bi-instagram{
+    position: fixed;
+    font-size: 30px;
+    padding-left: 10px;
+    bottom: 170px;
+    right: 10px;    
+    color: #c5a129;
+}
+
+
+.bi-facebook{
+    position: fixed;
+    font-size: 30px;
+    padding-left: 10px;
+    bottom: 220px;
+    right: 10px;
+    color: #c5a129;
+}
+
+.bi-github{
+    position: fixed;
+    font-size: 30px;
+    padding-left: 10px;
+    bottom: 270px;
+    right: 10px;
+    color: #c5a129;
+}
+
+.bi-linkedin:hover{
+    color: #5e5b5b;
+}.bi-facebook:hover{
+    color: #5e5b5b;
+}.bi-github:hover{
+    color: #5e5b5b;
+}.bi-instagram:hover{
+    color: #5e5b5b;
+}
+.nav{
+  z-index: 1;
+}
+
